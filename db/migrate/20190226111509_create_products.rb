@@ -4,7 +4,7 @@ class CreateProducts < ActiveRecord::Migration[5.2]
       t.string :name
       t.string :price
       t.string :quntity
-      t.sting :expriry_date
+      t.string :expriry_date
 
       t.timestamps
     end

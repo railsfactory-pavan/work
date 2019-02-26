@@ -4,10 +4,10 @@ one:
   name: MyString
   price: MyString
   quntity: MyString
-  expriry_date: 
+  expriry_date: MyString
 
 two:
   name: MyString
   price: MyString
   quntity: MyString
-  expriry_date: 
+  expriry_date: MyString
