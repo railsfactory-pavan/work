@@ -10,13 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_26_111509) do
+ActiveRecord::Schema.define(version: 2019_02_26_112856) do
 
   create_table "products", force: :cascade do |t|
     t.string "name"
     t.string "price"
     t.string "quntity"
     t.string "expriry_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.boolean "current_user"
+    t.string "email"
+    t.string "password"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

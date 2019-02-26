@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
-  get 'login/index'
   resources :products
+  resources :users
+  
+  root 'users#index'
 end
